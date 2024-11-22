@@ -59,7 +59,7 @@ def display_right_content(labels):
 
 # 모델 로드
 st.write("모델을 로드 중입니다. 잠시만 기다려주세요...")
-learner = load_model_from_drive(file_id)  `
+learner = load_model_from_drive(file_id)
 st.success("모델이 성공적으로 로드되었습니다!")
 
 labels = learner.dls.vocab
